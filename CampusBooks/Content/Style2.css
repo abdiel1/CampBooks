@@ -1,0 +1,398 @@
+body{
+	background-image:url('blue.jpg');
+	background-position:center;
+	height:50%;
+}
+
+#pic{
+float:left;
+width:15%;
+height:85%;
+}
+#pic2{
+float:inherit;
+width:60%;
+height:100%;
+}
+#header{
+position:absolute;
+float:top;
+width:98%;
+height:150px;
+background: black;
+border: 2px solid #6CBE45;
+}
+
+
+.categBlock{
+    cursor: pointer;
+}
+.search1{
+	/* display: inline-block; */
+	position: absolute;
+	background-color: black;
+	padding-top: 8px;
+	margin-left:15%;
+	margin-top:270px;
+	height: 200px;
+	width: 70%;
+	border:2px solid #6CBE45;
+	color:white;
+    border-radius: 8px;
+	
+}
+
+.search2{
+	display: inline-block;
+	position: absolute;
+	background-color: black;
+	padding-top: 8px;
+	margin-left:15%;
+	margin-top:20%;
+	height: 1000px;
+	width: 70%;
+	border:2px solid #6CBE45;
+	color:white;
+    border-radius: 8px;
+    padding: 1% 0% 1% 1%;
+
+}
+
+.editPost{
+    cursor: pointer;
+}
+
+
+.postBlock{
+	display:inline-block;
+	width:30%;
+	height:25%;
+	border:2px solid #6CBE45;
+	margin-left:1%;
+    cursor: pointer;
+
+
+}
+.sInfo{
+	width:60%;
+	height:55%;
+	border:2px solid #6CBE45;
+	position:fixed;
+	margin-left:25%;
+	margin-top:15%;
+	background:black;
+	color:white;
+}
+#closeButton{
+	border-radius:100%;
+	background:grey;
+	width:2%;
+	height:2%;
+	float:right;
+
+
+}
+
+#search {
+	position: absolute;
+    padding: 5px 9px;
+    height: 20%;
+    width: 80%;
+    border: 1px solid #a4c3ca;
+    font: normal 13px 'trebuchet MS', arial, helvetica;
+    background: #f1f1f1;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1); 
+    left: 100px;
+	margin-left:0px;
+	margin-top:10px;
+	outline-color:#6CBE45;
+}
+
+#search2 {
+	position: absolute;
+    padding: 5px 9px;
+    height: 5%;
+    width: 80%;
+    border: 1px solid #a4c3ca;
+    font: normal 13px 'trebuchet MS', arial, helvetica;
+    background: #f1f1f1;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1); 
+    left: 100px;
+	margin-left:0px;
+	margin-top:10px;
+	outline-color:#6CBE45;
+}
+
+#submit
+{     
+	position: absolute;
+	float:bottom;
+    background-color: #6CBE45;
+    background-image: linear-gradient(#335C33, #4DB84D);
+    border-radius: 3px 50px 3px 50px;    
+    border-width: 1px;
+    border-style: solid;
+    border-color: #6CBE45;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 
+                0 1px 0 rgba(255, 255, 255, 0.3) inset;
+    height: 35px;
+    margin-left:45% ;
+    margin-top:65px;
+    padding: 0;
+    width: 120px;
+    cursor: pointer;
+    font: bold 14px Arial, Helvetica;
+    color: white;    
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    
+}
+
+#submit:hover {       
+    background-color: #335C33;
+    background-image: linear-gradient(#6cbb6b, #95d788);
+}   
+
+#submit:active {       
+    background: #335C33;
+    outline: none;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;        
+}
+
+#submit::-moz-focus-inner {
+       border: 0;  /* Small centering fix for Firefox */
+}
+#menu {
+	position:absolute;
+	margin-top:200px;
+	margin-left:15%;
+    width: 70%;
+    height: 35px;
+    font-size: 16px;
+    font-family: Palatino, Geneva, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 3px 2px 3px #333333;
+    background-color: black;
+    border-radius: 8px;
+	border:2px solid #6CBE45;
+	
+}
+#menu ul {
+	
+    height: 200px;
+    padding: 8px 0px;
+    margin: 0px;
+}
+#menu li { 
+display: inline; 
+padding: 20px; 
+}
+
+#menu ul li{
+float:middle;
+
+}
+#menu ul ul{
+    display: none
+
+
+
+}
+#menu li ul{
+display:none;
+position:relative;
+width:180px;
+background:black;
+border:2px solid #6CBE45;
+
+}
+
+#menu li:hover > ul{
+color:white;
+position:absoulte;
+display:block;
+}
+#menu a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 8px 8px 8px;
+}
+#menu a:hover {
+    color: #6CBE45;
+    
+}
+
+#info{
+	width:100%;
+	color:white;
+	
+}
+
+
+#desBlock{
+	border:1px solid #6CBE45;
+	width:40%;
+	height:30%;
+	position:absolute;
+	margin-left:250px;
+
+}
+
+#offBlock{
+	border:1px solid #6CBE45;
+	width:15%;
+	height:30%;
+	position:absolute;
+	margin-left:650px;
+
+}
+
+
+
+#addBookB
+{     
+	position: absolute;
+	display:inline;
+	float:bottom;
+    background-color: #6CBE45;
+    background-image: linear-gradient(#335C33, #4DB84D);
+    border-radius: 50px 50px 50px 50px;    
+    border-width: 1px;
+    border-style: solid;
+    border-color: #6CBE45;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 
+                0 1px 0 rgba(255, 255, 255, 0.3) inset;
+    height: 35px;
+    margin-left:45% ;
+    margin-top:-40px;
+    padding: 0;
+    width: 120px;
+    cursor: pointer;
+    font: bold 14px Arial, Helvetica;
+    color: white;    
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    
+}
+
+#addBookB:hover {       
+    background-color: #335C33;
+    background-image: linear-gradient(#6cbb6b, #95d788);
+}   
+
+#addBookB:active {       
+    background: #335C33;
+    outline: none;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;        
+}
+
+#addBookB::-moz-focus-inner {
+       border: 0;  /* Small centering fix for Firefox */
+}
+
+#clearButton
+{     
+	position: absolute;
+	display:inline;
+	float:bottom;
+    background-color: #6CBE45;
+    background-image: linear-gradient(#335C33, #4DB84D);
+    border-radius: 50px 50px 50px 50px;    
+    border-width: 1px;
+    border-style: solid;
+    border-color: #6CBE45;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 
+                0 1px 0 rgba(255, 255, 255, 0.3) inset;
+    height: 35px;
+    margin-left:15% ;
+    margin-top:0px;
+    padding: 0;
+    width: 120px;
+    cursor: pointer;
+    font: bold 14px Arial, Helvetica;
+    color: white;    
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    
+}
+
+#clearButton:hover {       
+    background-color: #335C33;
+    background-image: linear-gradient(#6cbb6b, #95d788);
+}   
+
+#clearButton:active {       
+    background: #335C33;
+    outline: none;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;        
+}
+
+#clearButton::-moz-focus-inner {
+       border: 0;  /* Small centering fix for Firefox */
+}
+
+
+
+
+/*Posting*/
+#information{
+	
+	position: absolute;
+	margin-top: 250px;
+	margin-left: 15%;
+	width: 70%;
+	border-radius:8px;
+	background-color: black;
+	background: black;
+	border:2px solid #6CBE45; 
+}
+#inf{
+	position: relative;
+	margin-top: 1%;
+	margin-left: 5%;
+	cellspacing: 5px;
+}
+
+
+
+
+#editPostBlock{
+
+width:30%;
+height:20%;
+position:fixed;
+margin-left:40%;
+margin-top:25%;
+background:black;
+color:white;
+border:2px solid #6CBE45;
+border-radius: 8px;
+
+}
+
+#closeButton{
+    cursor:pointer;
+}
+
+#categDiv{
+color:white;
+border:2px solid #6CBE45;
+background: black;
+width:30%;
+height:5%;
+margin-top:10%;
+margin-left:40%;
+position: fixed;
+padding:10px;
+border-radius: 8px;
+
+}
+
+
+
+#categSelect{
+width:50%;
+height:50%;
+font-size: 15px;
+
+}
